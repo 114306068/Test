@@ -1,10 +1,12 @@
  public class Main {
 
 	public static void main(String[] args) {
-        int i = 8;
+        String i = "hello";
+        String j = "hello";
+
         System.out.println(i);
-        if(i==8){
-                i=i+9;
+        if(i==j){
+                System.out.println("true");
         }
         System.out.println(i);
 
